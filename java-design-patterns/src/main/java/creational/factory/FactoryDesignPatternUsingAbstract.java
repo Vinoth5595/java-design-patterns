@@ -27,7 +27,7 @@ public class FactoryDesignPatternUsingAbstract {
 		OperatingSystemFactory operatingSystemFactory = new OperatingSystemFactory();
 		OperatingSystem operatingSystem = operatingSystemFactory.getOperatingSystem(input);
 		System.out.println(operatingSystem.getOS());
-		
+		scanner.close();
 		
 		
 	}

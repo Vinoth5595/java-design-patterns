@@ -26,5 +26,6 @@ public class FactoryDesignPatternUsingInterface {
 		IOperatingSystemFactory operatingSystemFactory = new IOperatingSystemFactory();
 		IOperatingSystem operatingSystem = operatingSystemFactory.getOperatingSystem(input);
 		System.out.println(operatingSystem.getOS());
+		scanner.close();
 	}
 }
