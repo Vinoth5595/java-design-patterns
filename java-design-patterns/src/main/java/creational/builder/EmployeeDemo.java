@@ -1,4 +1,4 @@
-package creational.singleton.builder;
+package creational.builder;
 
 public class EmployeeDemo {
 
