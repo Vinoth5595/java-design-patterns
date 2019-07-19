@@ -2,6 +2,12 @@ package structural.composite;
 
 public class CompositeDesignPatternDemo {
 
+	/**
+	 * A Composite Pattern says that just "allow clients to operate in generic
+	 * manner on objects that may or may not represent a hierarchy of objects".
+	 * 
+	 */
+
 	public static void main(String[] args) {
 		Developer dev1 = new Developer(100, "Lokesh Sharma", "Pro Developer");
 		Developer dev2 = new Developer(101, "Vinay Sharma", "Developer");
