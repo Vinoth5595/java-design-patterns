@@ -1,8 +1,12 @@
 package structural.adapter;
 
+/**
+ * @author Vinoth
+ *
+ */
 public class AdapterDesignPatternDemo {
 	/**
-	 * Adapter Design pattern (Structural)
+	 * Adapter Design pattern (Structural )
 	 */
 
 	public static void main(String[] args) {
